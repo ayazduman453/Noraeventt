@@ -43,11 +43,22 @@
       font-size: 48px;
       text-shadow: 2px 2px 4px #000;
     }
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
-      margin: 10px;
-      border-radius: 10px;
+    .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img {
+  flex: 1 1 calc(33% - 20px);
+  margin: 10px;
+  max-width: calc(33% - 20px);
+}
+@media (max-width: 768px) {
+  .gallery img {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+}
     }
     .contact, .form-container {
       background: #f8e1ec;
