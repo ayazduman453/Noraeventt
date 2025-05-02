@@ -139,11 +139,6 @@
   </section>
   <section id="galeri">
     <h2>Galeri</h2>
-    <div class="gallery">
-      <img src="https://via.placeholder.com/300x200" alt="Salon 1">
-      <img src="https://via.placeholder.com/300x200" alt="Dekorasyon">
-      <img src="https://via.placeholder.com/300x200" alt="Etkinlik">
-    </div>
   </section>
   <section id="rezervasyon" class="form-container">
     <h2>Rezervasyon Formu</h2>
