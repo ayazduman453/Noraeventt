@@ -43,10 +43,7 @@
       font-size: 48px;
       text-shadow: 2px 2px 4px #000;
     }
-    .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    
 }
 .gallery img {
   flex: 1 1 calc(33% - 20px);
