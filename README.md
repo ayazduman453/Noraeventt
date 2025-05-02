@@ -54,9 +54,7 @@
   max-width: calc(33% - 20px);
 }
 @media (max-width: 768px) {
-  .gallery img {
-    max-width: 100%;
-    flex: 1 1 100%;
+  .
   }
 }
     }
